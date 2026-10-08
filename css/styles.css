@@ -1,8 +1,8 @@
 /* Color Palette
-header - #8fb1ba
-footer - #8fb1ba
-work-experience - color 3
-education - color 4
+header - #294653
+footer - #294653
+work-experience - #eef4f5
+education - #FFFFFF
 */
 
 /* Global styles 
@@ -13,7 +13,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Playfair Display", Georgia;
 }
 .header img {
     height: 200px;
@@ -53,9 +53,7 @@ main {
 ------------------------------------*/
 header, footer {
     background-color: #294653;
-}
-footer {
-    font-family: "Playfair Display";
+    color: white;
 }
 
 
