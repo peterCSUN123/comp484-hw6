@@ -1,22 +1,41 @@
 /* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+header - #8fb1ba
+footer - #8fb1ba
+work-experience - color 3
+education - color 4
 */
 
 /* Global styles 
 ------------------------------------*/
 body {
-    background: lightblue;
+    background: white;
 }
-#picture {
-    height: 300px;
-    width: auto;
+.header img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.header{
+    
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 45px;
+}
+h2{
+    font-size: 40px;
 }
 
 /* Header & Footer 
 ------------------------------------*/
+header, footer {
+    background-color: #8fb1ba;
+}
 
 
 
