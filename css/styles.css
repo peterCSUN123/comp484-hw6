@@ -9,6 +9,11 @@ education - color 4
 ------------------------------------*/
 body {
     background: white;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .header img {
     height: 200px;
@@ -19,30 +24,50 @@ body {
 .header{
     
     display: flex;
-    align-items: center;
+    justify-content: center;
     gap: 50px;
     padding: 30px;
 }
 
 h1 {
     font-size: 45px;
+    margin: 0;
+    font-family: "Libre Caslon Condensed";
+    font-weight: 700;
 }
 h2{
-    font-size: 40px;
+    font-size: 24px;
+    margin: 4px 0 12px;
+    font-family: "Libre Caslon Condensed";
+    font-weight: 700;
+}
+footer a {
+    color: #D6EEF2;
+    
+}
+main {
+    flex: 1;
 }
 
 /* Header & Footer 
 ------------------------------------*/
 header, footer {
-    background-color: #8fb1ba;
+    background-color: #294653;
 }
-
+footer {
+    font-family: "Playfair Display";
+}
 
 
 /* Work Experience
 ------------------------------------*/
-
+.work-experience {
+    background-color: #eef4f5;
+}
 
 
 /* Education
 ------------------------------------*/
+.education {
+    background-color: #FFFFFF;
+}
