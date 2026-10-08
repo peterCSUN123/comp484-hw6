@@ -48,7 +48,9 @@ footer a {
 main {
     flex: 1;
 }
-
+p {
+    font-size: 20px;
+}
 /* Header & Footer 
 ------------------------------------*/
 header, footer {
