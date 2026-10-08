@@ -15,19 +15,6 @@ body {
     flex-direction: column;
     font-family: "Playfair Display", Georgia;
 }
-.header img {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-.header{
-    
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    padding: 30px;
-}
 
 h1 {
     font-size: 45px;
@@ -41,10 +28,7 @@ h2{
     font-family: "Libre Caslon Condensed";
     font-weight: 700;
 }
-footer a {
-    color: #D6EEF2;
-    
-}
+
 main {
     flex: 1;
 }
@@ -57,7 +41,23 @@ header, footer {
     background-color: #294653;
     color: white;
 }
-
+footer a {
+    color: #D6EEF2;
+    
+}
+.header img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.header{
+    
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+}
 
 /* Work Experience
 ------------------------------------*/
